@@ -1,0 +1,36 @@
+body {
+	font-family: 'Oswald', sans-serif;
+	color: purple;
+}
+
+ul {
+	list-style-type: none;
+	background-color: #efefef;
+	padding: 15px 10px;
+}
+
+li {
+	display: inline;
+	padding: 15px 10px;
+	border-right: 2px solid orange;
+}
+
+a {
+	text-decoration: none;
+}
+
+li:nth-child(3) > a:hover {
+	text-decoration: none;
+	color: orange;
+}
+
+li:nth-child(2):hover {
+	text-decoration: none;
+	background-color: orange;
+
+}
+
+li:nth-child(1):hover {
+	padding: 15px 15px;
+
+}
